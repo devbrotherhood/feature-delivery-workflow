@@ -1,12 +1,16 @@
+<div align="center">
+
 # Feature Delivery Workflow (FDW)
+
+</div>
+
+Afinal, o que são fluxos de trabalho Git (**Git Workflow**)?
 
 <div align="center">
 
 ![Git Workflow](./git_commit_vs_git_push.gif)
 
 </div>
-
-Afinal, o que são fluxos de trabalho Git (**Git Workflow**)?
 
 O conjunto de definições que estipulam regras para criação, remoção, origem e destino de ramificações(**branches**) dentro do **Git**, definem um fluxo de trabalho(**workflow**).
 
