@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Git Workflow](./arquivos/git_commit_vs_git_push.gif)
+![Git Workflow](./git_commit_vs_git_push.gif)
 
 </div>
 
@@ -12,7 +12,7 @@ O conjunto de definições que estipulam regras para criação, remoção, orige
 
 <div align="center">
 
-![Git Workflow](./arquivos/groot_branches_bad.gif)
+![Git Workflow](./groot_branches_bad.gif)
 
 </div>
 
@@ -20,7 +20,7 @@ Assim como Padrões de projeto (**Design patterns**), existem vários tipos de f
 
 <div align="center">
 
-![Git Workflow](./arquivos/groot_branches.gif)
+![Git Workflow](./groot_branches.gif)
 
 </div>
 
@@ -36,7 +36,7 @@ A representação do workflow **FDW** pode ser visualizada da seguinte maneira:
 
 <div align="center">
 
-![Git Workflow](../arquivos/Git_Workflow.png)
+![Git Workflow](../Git_Workflow.png)
 
 </div>
 
@@ -46,7 +46,7 @@ Merge Request, representado pela sigla **MR**, significa **solicitação de mesc
 
 <div align="center">
 
-![Git Workflow](../arquivos/merge_request.png)
+![Git Workflow](../merge_request.png)
 
 </div>
 
@@ -59,7 +59,7 @@ Características:
 
 <div align="center">
 
-![Git Workflow](../arquivos/gitflow_1.png)
+![Git Workflow](../gitflow_1.png)
 
 </div>
 
@@ -113,7 +113,7 @@ Suas características são:
 
 <div align="center">
 
-![Git Workflow](../arquivos/gitflow_tags.png)
+![Git Workflow](../gitflow_tags.png)
 
 </div>
 
@@ -127,7 +127,7 @@ A geração de Releases é composta pela criação do **Changelog** contendo ite
 
 <div align="center">
 
-![Git Workflow](../arquivos/branch_balance.gif)
+![Git Workflow](../branch_balance.gif)
 
 </div>
 
