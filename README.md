@@ -4,21 +4,15 @@
 
 </div>
 
-Afinal, o que são fluxos de trabalho Git (**Git Workflow**)?
-
 <div align="center">
 
 ![Git Workflow](./git_commit_vs_git_push.gif)
 
 </div>
 
+Afinal, o que são fluxos de trabalho Git (**Git Workflow**)?
+
 O conjunto de definições que estipulam regras para criação, remoção, origem e destino de ramificações(**branches**) dentro do **Git**, definem um fluxo de trabalho(**workflow**).
-
-<div align="center">
-
-![Git Workflow](./groot_branches_bad.gif)
-
-</div>
 
 Assim como Padrões de projeto (**Design patterns**), existem vários tipos de fluxo de trabalho para trabalhar com o Git. Cada fluxo é destinado a cenários que se encaixem na necessidade do time e do projeto.
 
@@ -27,12 +21,6 @@ Assim como Padrões de projeto (**Design patterns**), existem vários tipos de f
 O fluxo **Feature Delivery Workflow (FDW)** foi criado para atender cenários que exigem constante geração de pequenos blocos de artefatos que compõe blocos maiores de entregáveis, permitindo entregas sob demanda.
 
 Sua premissa é permitir entregar **somente o que já foi homologado** pelo cliente, evitando a geração de grandes pacotes para homologação e facilitando integração com ferramentas de **Continuous Delivery**(CD).
-
-<div align="center">
-
-![Git Workflow](./groot_branches.gif)
-
-</div>
 
 O fluxo **FDW** possui alguns pontos em comum com o **Gitflow Workflow**. Entre suas principais diferenças, no fluxo FDW existe uma branch chamada `homolog` voltada para a homologação de features que serão entregues, não existindo a necessidade da branch `release`.
 
@@ -78,6 +66,12 @@ Suas características são:
 
 ## Features
 
+<div align="center">
+
+![Git Workflow](./groot_branches.gif)
+
+</div>
+
 Funcionalidades são representadas por branches `feature`. Elas apresentam as seguintes características:
 
 - Novas features devem ser criadas à partir da branch `develop`
@@ -105,6 +99,12 @@ Suas características são:
 - **Tags** e **Releases** são sempre gerados nesta branch.
 
 ## Hotfix
+
+<div align="center">
+
+![Git Workflow](./groot_branches_bad.gif)
+
+</div>
 
 Hotfix significam **consertos rápidos** e representa algo que precisa ser ajustado com urgência. Esses ajustes podem ser classificados como pequenas correções ou pequenas alterações.
 
