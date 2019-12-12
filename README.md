@@ -22,17 +22,17 @@ O conjunto de definições que estipulam regras para criação, remoção, orige
 
 Assim como Padrões de projeto (**Design patterns**), existem vários tipos de fluxo de trabalho para trabalhar com o Git. Cada fluxo é destinado a cenários que se encaixem na necessidade do time e do projeto.
 
-<div align="center">
-
-![Git Workflow](./groot_branches.gif)
-
-</div>
-
 ## Sobre
 
 O fluxo **Feature Delivery Workflow (FDW)** foi criado para atender cenários que exigem constante geração de pequenos blocos de artefatos que compõe blocos maiores de entregáveis, permitindo entregas sob demanda.
 
 Sua premissa é permitir entregar **somente o que já foi homologado** pelo cliente, evitando a geração de grandes pacotes para homologação e facilitando integração com ferramentas de **Continuous Delivery**(CD).
+
+<div align="center">
+
+![Git Workflow](./groot_branches.gif)
+
+</div>
 
 O fluxo **FDW** possui alguns pontos em comum com o **Gitflow Workflow**. Entre suas principais diferenças, no fluxo FDW existe uma branch chamada `homolog` voltada para a homologação de features que serão entregues, não existindo a necessidade da branch `release`.
 
