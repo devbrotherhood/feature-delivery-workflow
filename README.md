@@ -81,6 +81,12 @@ Funcionalidades são representadas por branches `feature`. Elas apresentam as se
 
 ## Homolog
 
+<div align="center">
+
+![Git Workflow](./branch_balance.gif)
+
+</div>
+
 Homolog é uma abreviação para `homologation`. A branch `homolog` está destinada a simular o ambiente de produção, simulando propositalmente eventuais erros que poderiam ser gerados durante a entrega de features.
 
 Suas características são:
@@ -128,13 +134,6 @@ No fluxo FWD os itens que compõe entregáveis estão descritos nos Merge Reques
 A geração de Releases é composta pela criação do **Changelog** contendo itens que foram realizados e criação de Tags versionando o código-fonte utilizando o **Semantic versioning**.
 
 **OBS:** As Releases são geradas somente à partir da branch `master`.
-
-<div align="center">
-
-![Git Workflow](./branch_balance.gif)
-
-</div>
-
 
 ## :handshake: Contribuindo
 
