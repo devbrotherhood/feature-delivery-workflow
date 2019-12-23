@@ -94,6 +94,22 @@ Suas características são:
 - A branch `homolog` **NUNCA** deve ser movida ou deve ser utilizada como referência para ser criadas novas branches
 - Merges através de **Merge Request** são opcionais variando de acordo com a necessidade do projeto
 
+**Merge para branch Homolog**
+
+No caso desse merge para branch `homolog` siga os passos abaixo
+
+
+- Acesse a branch `homolog` 
+- Faça o merge para sua branch
+
+```command
+git checkout origin/homolog
+git merge feature/modulo/relatorio
+```
+
+- Resolver os conflitos
+- Publicar o merge ```git push origin homolog```
+
 ## Master
 
 Essa branch é criada como padrão pelo Git. É considerada a principal branch do projeto principalmente por representar a versão estável do repositório.
